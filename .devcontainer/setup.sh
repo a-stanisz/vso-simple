@@ -1,4 +1,3 @@
 #!/bin/bash
 
-echo 'Hello from setup.sh!'
-echo "alias python='python3'" >> ~/.bashrc
+echo "alias python='python3'" >> $HOME/.bash_aliases
