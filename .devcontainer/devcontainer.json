@@ -1,16 +1,15 @@
 {
-    "name": "sample-name",
-    "appPort": 3000,
-    "settings": {
-        "editor.formatOnSave": false,
-        "[javascript]": {
-            "editor.formatOnSave": true
-        }
-    },
-    "postCreateCommand": "chmod +x .devcontainer/setup.sh && sudo .devcontainer/setup.sh",
-    "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker"
-    ]
+  "appPort": 3000,
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker"
+  ],
+  "settings": {
+    "editor.formatOnSave": false,
+    "[javascript]": {
+      "editor.formatOnSave": true
+    }
+  },
+  "postCreateCommand": "/bin/bash ./.devcontainer/setup.sh > ~/setup.log"
 }
