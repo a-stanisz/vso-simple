@@ -1,5 +1,6 @@
 {
   "appPort": 3000,
+  "workspaceFolder": "$HOME/code",
   "extensions": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
