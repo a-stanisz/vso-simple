@@ -12,5 +12,5 @@
       "editor.formatOnSave": true
     }
   },
-  "postCreateCommand": "/bin/bash ./.devcontainer/setup.sh > ~/setup.log"
+  "postCreateCommand": "/bin/bash ./.devcontainer/setup.sh"
 }
